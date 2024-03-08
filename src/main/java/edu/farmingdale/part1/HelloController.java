@@ -1,8 +1,5 @@
 package edu.farmingdale.part1;
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
@@ -17,7 +14,7 @@ public class HelloController {
 
     private static final NumberFormat percent = NumberFormat.getPercentInstance();
 
-    private BigDecimal tipPercentage = new BigDecimal(0.15);
+    private BigDecimal tipPercentage = new BigDecimal("0.15");
 
     @FXML
     private TextField amountTextField;
